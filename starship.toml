@@ -1,0 +1,77 @@
+## ░█▀▀░▀█▀░█▀█░█▀▄░█▀▀░█░█░▀█▀░█▀█
+## ░▀▀█░░█░░█▀█░█▀▄░▀▀█░█▀█░░█░░█▀▀
+## ░▀▀▀░░▀░░▀░▀░▀░▀░▀▀▀░▀░▀░▀▀▀░▀░░
+
+# Sets user-defined palette
+palette = "catppuccin_mocha"
+
+# Setups
+format="$directory$git_branch$character"
+add_newline = false 
+
+# Other languages configurations:
+c.disabled = true
+cmake.disabled = true
+haskell.disabled = true
+python.disabled = true
+ruby.disabled = true
+rust.disabled = true
+perl.disabled = true
+package.disabled = true
+lua.disabled = true
+nodejs.disabled = false
+java.disabled = true
+golang.disabled = true
+
+[conda]
+format = ' [$symbol$environment](dimmed yellow) '
+
+# Prompt symbols 
+[character]
+success_symbol = "[  ](bg:yellow fg:base bold)"
+error_symbol = "[ ✗ ](bg:yellow fg:base)"
+vicmd_symbol = "[ V ](bg:yellow fg:base)"
+
+[directory]
+format = "($style)(bg:yellow fg:base)[ $path ](bg:yellow fg:base bold)($style)"
+# format = "($style)[ ](bg:text fg:pink)[$path](bg:base fg:lavender bold)[ ]($style)[ ]"
+style = "bg:yellow fg:base"
+truncation_length = 3
+truncate_to_repo=false
+read_only='🔒'
+
+[git_state]
+disabled=true
+
+[git_branch]
+format = "[($style)(bg:yellow fg:base bold)$branch](fg:base bg:yellow)($style)"
+style = "bg:yellow fg:base"
+
+
+[palettes.catppuccin_mocha]
+rosewater = "#f5e0dc"
+flamingo = "#f2cdcd"
+pink = "#F5BDE6"
+mauve = "#cba6f7"
+red = "#ED8796"
+maroon = "#eba0ac"
+peach = "#fab387"
+yellow = "#EED49F"
+green = "#A6DA95"
+teal = "#8BD5CA"
+sky = "#8AADF4"
+sapphire = "#74c7ec"
+blue = "#89b4fa"
+lavender = "#b4befe"
+text = "#cdd6f4"
+subtext1 = "#B8C0E0"
+subtext0 = "#a6adc8"
+overlay2 = "#9399b2"
+overlay1 = "#7f849c"
+overlay0 = "#6c7086"
+surface2 = "#585b70"
+surface1 = "#45475a"
+surface0 = "#313244"
+base = "#494D64"
+mantle = "#181825"
+crust = "#11111b"

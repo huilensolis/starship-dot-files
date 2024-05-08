@@ -7,8 +7,8 @@ palette = "catppuccin_mocha"
 
 # Setups
 format = '''
-$directory$git_branch$git_state $git_metrics $nodejs$rust
- > '''
+$directory $git_branch $git_state $git_metrics $nodejs$rust
+> '''
 # add_newline = false
 
 # Other languages configurations:
@@ -24,7 +24,7 @@ java.disabled = true
 golang.disabled = true
 
 [directory]
-format = "($style)[ $path ]($style)"
+format = "($style)[$path]($style)"
 style = "fg:green"
 truncation_length = 3
 truncate_to_repo = false
